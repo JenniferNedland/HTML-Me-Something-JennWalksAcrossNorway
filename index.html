@@ -1,8 +1,53 @@
 <!DOCTYPE html>
 <html>
    <head>
+      <link rel="stylesheet" href="styles.css">
+      <script src="script.js"></script>
    </head>
-   <body>
-      <!-- Write your HTML in this file! -->
-   </body>
+   <body onload="setDefaultTab('tab_0')">
+      <!-- Tab links -->
+
+   <div class="container">
+      <img class="banner" src="images\bannerflip.jpg">
+      <div class="tab">
+   
+         <button id="tab_0" class="tablinks" onclick="showTabContent(event, 'Home')">HOME</button>
+         <button id="tab_1" class="tablinks" onclick="showTabContent(event, 'Story')">STORY</button>
+         <button id="tab_2" class="tablinks" onclick="showTabContent(event, 'PhotoMap')">PHOTOS</button>
+         <button id="tab_3" class="tablinks" onclick="showTabContent(event, 'Cabins')">CABINS</button>
+         <button id="tab_4" class="tablinks" onclick="showTabContent(event, 'About')">ABOUT</button>
+
+         <div class="glider"></div>
+      </div>
+   </div>
+
+ <!-- Tab content -->
+ <div id="Home" class="tabcontent">
+   <h3>Whyyyy are we doing this?</h3>
+   <p>Tell why we are doing this. </p>
+ </div>
+ 
+ <div id="Story" class="tabcontent">
+   <h3>Story</h3>
+   <p>All that nonsense goes here.</p>
+ </div>
+
+ <div id="PhotoMap" class="tabcontent">
+   <h3>Photos</h3>
+   <p>One photo at a time with description here</p>
+ </div>
+ 
+ <div id="Cabins" class="tabcontent">
+   <h3>Cabins</h3>
+   <p>A list of cabins with the links maybe?</p>
+ </div>
+
+ <div id="About" class="tabcontent">
+   <h3>About</h3>
+   <p>Talk about yourself here. obviously</p>
+ </div>
+
+
+
+
 </html>
