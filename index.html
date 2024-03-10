@@ -1,53 +1,136 @@
 <!DOCTYPE html>
 <html>
    <head>
-      <link rel="stylesheet" href="styles.css">
-      <script src="script.js"></script>
-   </head>
-   <body onload="setDefaultTab('tab_0')">
-      <!-- Tab links -->
+      <link rel="stylesheet" href="styles.css"/>
 
-   <div class="container">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Opensans">
+
+      <script src="script.js"></script>
+      <title>Mountain to Fjord: Norge på tvers</title>
+   </head>
+   <body>
+
+   <header class="container">
       <img class="banner" src="images\bannerflip.jpg">
+      <div class="overlay-text" >
+        <div class="tiny" >&nbsp;Mountain to Fjord</div> <div>HIKING ACROSS<br> NORWAY <br></div> 
+      </div>
+
       <div class="tab">
    
-         <button id="tab_0" class="tablinks" onclick="showTabContent(event, 'Home')">HOME</button>
+         <button id="tab_0" class="tablinks active" onclick="showTabContent(event, 'Home')">HOME</button>
          <button id="tab_1" class="tablinks" onclick="showTabContent(event, 'Story')">STORY</button>
-         <button id="tab_2" class="tablinks" onclick="showTabContent(event, 'PhotoMap')">PHOTOS</button>
+         <button id="tab_2" class="tablinks" onclick="showTabContent(event, 'Photos')">PHOTOS</button>
          <button id="tab_3" class="tablinks" onclick="showTabContent(event, 'Cabins')">CABINS</button>
          <button id="tab_4" class="tablinks" onclick="showTabContent(event, 'About')">ABOUT</button>
 
          <div class="glider"></div>
       </div>
-   </div>
+   </header>
+ <main> 
+ <div id="Home" class="tabcontent active">
+   <h3>How did I end up hiking across Norway? </h3>
+   <p>During the summer of 2023 I talked my husband Magnar into walking 125 kilometers across his home country of Norway. He attempted to talk to me down to a more reasonable plan, but the moment the idea was in my mind there was no turning back. I was relentless enough to joke that I bullied him into the journey and I am so glad that I did, because it's one of the most incredible things I've ever done.</p>
 
- <!-- Tab content -->
- <div id="Home" class="tabcontent">
-   <h3>Whyyyy are we doing this?</h3>
-   <p>Tell why we are doing this. </p>
+   <p>We debated if we should hike or run the distance and ultimately the weight of our backpacks solved this debate. Since neither of us had ever done this before, we packed nearly everything we could possibly need out of an abundance of caution. In addition to clothes for all weather and hygiene items, we had a portable stove, dehydrated meals, water, snacks, headlamps, waterproof bags, and a seating pad and rain cover to sit under for meals when it was raining. It felt like it was always raining. </p> 
+  
+   <p>Most locals hike from Trondheim to Sweden, but we decided to go backward and hike home. Trondheim has a fantastic program that will, for the price of a regular city public transit bus ticket, transport hikers via bus followed by taxi across Norway to the first cabin on the journey. The first cabin is about 6 kilometers from the Swedish border. The first 12 kilometers to Sweden and back to the cabin was treacherous at night on wet rocks and at one point there was a steep drop-off that terrified me. It was night one that I realized I wore the wrong shoes, but I was not about to be reasoned with. I planned to walk across Norway no matter what.</p> 
+   <iframe class = "vid" width="560" height="315" src="https://www.youtube.com/embed/aQqhPF-Epow?si=sf2OxznT1lTgwJb5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
  </div>
+  </main> 
  
  <div id="Story" class="tabcontent">
-   <h3>Story</h3>
-   <p>All that nonsense goes here.</p>
+   <h3>The Journey Across Norway</h3>
+   <article>
+   <h4>Day One - Making our way to Sweden</h4>
+   <h5>Distance: 12km</h5>
+   <img class = "journeyIMG" src="images/MgwalkingtoSweden.jpg">
+    <p>Our first day involved a bus and taxi ride from Trondheim across Norway to Nedalshytta, a cabin 6 kilometers from Sweden. We then hiked to Sweden and back to the cabin at night. This stretch proved to be the second most difficult portion of the journey. Although we were rained on all week, it was night one that I realized my "all terrain" Hokas were definitely more of an all terrain when dry sort of shoe. My shoes were like a heavy collection of slippery, soaked kitchen sponges making the hike exhausting and more dangerous than necessary.</p>
+
+    <p>We did not return to the cabin until after 2am where we ate dehydrated bag meals for dinner. This was my first stay in a Norwegian cabin. We were lucky to have a room to ourselves, but had to stay quiet as we did share the cabin with other visitors. </p>
+    </article>
+    
+   <h4>Day Two - Nedalshytta to Storerikvollen</h4>
+   <h5>Distance: 26km</h5>
+   <img class = "journeyIMG" src="images\sheepatStorerikvollen.jpg">
+    <p>At Nedalshytta I experienced my first Norwegian cabin breakfast. The dining room was bustling with families. Cabin staff thoughtfully put out some oatmilk chocolate spread for me and there were plenty of veggies to munch on. Along side the generous breakfast spread, there are always supplies to make a packed lunch (Matpakke) with the leftover breakfast items to take along your hike. I packed a sack of fresh vegetables and made myself sandwiches with the chocolate spread and various jams available. I tied the bag to my backpack and ate while walking so we didn't have to stop every time I needed an energy boost. </p>
+      
+    <p>This was the most beautiful weather day of the journey. Although it was chilly out, the skies were clear and our legs were still relatively fresh. This stretch was much easier than the night before. </p>
+
+    <p>We spotted multiple packs of reindeer throughout the day and I walked across the scariest bridge of the trip. And there were plenty of terrifying bridges!</p>
+
+   <h4>Day Three - Storerikvollen to Ramsj&oslash;hytta, then Schulzhytta</h4>
+   <h5>Distance: 33km</h5>
+   <img class = "journeyIMG" src="images\leavingStorerikvollen.jpg">
+   <p>I was a bit downtrodden from being cold and wet by the time we made it to Ramsj&oslash;hytta. We only stopped in briefly to dry our things over a fire and eat some bag meals before heading out. Another guest at the cabin had her dog with her and I asked if I could hang out with the dog for a while which lifted my spirits quite a bit. </p>
+   
+  <p>The night ahead of us was rough and I felt like we were "almost there" for hours climbing on slippery rocks and through cold water in the dark with only headlamps. Everything was flooded and by the time we reached Schulzhytta it was after midnight. Even in proper rain gear, my clothes were soaked through to my undergarments and I had been cold for hours. I immediately took off my mud-covered clothes and sat by the fire in the drying room to dry out with the clothes.</p> 
+
+  <p>There were no other guests at Schulzhytta and although the staff was technically off for the night, they went above and beyond and prepared an extraordinary meal for us which we ate by candlelight. I don't think I have ever appreciated a hot meal and hospitality this much in my entire life. </p>
+
+   <h4>Day Four - Rest Day at Schulzhytta</h4>
+   <h5>Distance: 0km (resting day)</h5>
+   <img class = "journeyIMG" src="images/breakfastSchulzhytta.jpg">
+   <p>We were welcomed to a lovely breakfast spread all to ourselves and spend much of the day enjoying the spacious cabin as other visitors trickled in. We shared our dinner table with a group of young men who were hiking the same path in the opposite direction. We exchanged stories and tips and I commiserated with a guy in their group who also wore heckin spongy shoes. When he told me he had screamed and cried about it on the hike, I felt quite validated. </p>
+
+   <p>After dinner, Magnar and I joined the guys in the sitting room of the cabin for dessert and beers while other Norwegians filled the room and chatted around us. Cabin staff were thoughtful enough to make me a vegan version of the dessert, which I did not expect! Hanging out and sharing stories with the guys was one of my favorite parts of the journey. Norwegians mostly keep to themselves, so social time was a nice treat for me. </p>
+
+   <h4>Day Five - Schulzhytta to Prest&oslash;yhytta</h4>
+   <h5>Distance: 18km</h5>
+   <img class = "journeyIMG" src="images\MgDayFive.jpg">
+   <p>Over breakfast we exchanged some final stories and tips with the guys just before heading in opposite directions on the trails. They advised us to walk a kilometer out of the way to a bridge in order to avoid crossing a potentially dangerously high river near the beginning of the day. They also warned us about a bridge that slanted with no rail on the low side, so we avoided this bridge by crossing the river upstream. </p>
+    
+    <p>Tall grass and other foliage was lying flat far from the banks as evidence of recent, massive flooding on much of this day's walk. Like much of the hike, most steps were wet and often the path was its own creek. We sloshed across Norway. 
+   </p>
+
+   <h4>Day Six - Prest&oslash;yhytta to Kvitfjellhytta</h4>
+   <h5>Distance: 12km</h5>
+   <iframe class = "vid" width="560" height="315" src="https://www.youtube.com/embed/vzrZjRPb-uA?si=WKjV90OsQXEUy5FY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <p>We reached the final cabin on day six. I can't think of many better feelings than reaching a cabin and eating hot food after these hikes. The cabins are heavenly after being wet and cold all day. </p>
+   
+   <h4>Day Seven - Kvitfjellhytta to Stj&oslash;rdal Stasjon</h4>
+   <h5>Distance: 34km</h5>
+   <img class = "journeyIMG" src="images\cowfriends.jpg">
+   <p>Our final day was the longest stretch and my feet were being torn up by my shoes so I walked 12 kilometers without shoes, often trudging through long stretches on thick mud with water to my ankles or hobbling on gravel stretches in socks. The boarded sections that elevated us above the mud and water (sometimes even the boards were flooded) were such a relief that I would run barefoot or in wet socks on those portions.
+    </p>
+    <p>We reached a paved road and started seeing scattered houses and fields of cows as we made our way to the official end of the trek and the train that would take us back to Trondheim proper. I was shoeless, exhausted, and beyond proud of myself. My daughter offered to cook a midnight dinner for us, so we'd have a welcoming meal upon arriving home. It was fantastic to come home to her and share all of our stories and photos. </p> 
+
+    <p>I can't wait to do it again in proper shoes! </p>
+   
  </div>
 
- <div id="PhotoMap" class="tabcontent">
+ <div id="Photos" class="tabcontent">
    <h3>Photos</h3>
    <p>One photo at a time with description here</p>
  </div>
  
  <div id="Cabins" class="tabcontent">
    <h3>Cabins</h3>
-   <p>A list of cabins with the links maybe?</p>
+   <p>A map of the cabins along the way
+   <iframe src="https://www.google.com/maps/d/u/0/embed?mid=13_ofY1b4k_5R_0ruZnvdT9ZemC4-3cU&ehbc=2E312F" width="640" height="480"></iframe>
+   </p>
+   <p>Explain Norwegian cabin system here</p>
  </div>
 
  <div id="About" class="tabcontent">
    <h3>About</h3>
-   <p>Talk about yourself here. obviously</p>
+   <p>Jennifer Nedland is an aspiring software developer who also enjoys: 
+      <ul style="float: left;">
+        <li>snowshoeing through forests</li>
+        <li>playing board games</li>
+        <li>taming feral cats</li>
+        <li>running to music</li>
+        <li>cooking new recipes</li>
+        <li>playing with tesla coils</li>
+        <li>and creating pretty things</li>
+      </ul>
+      <img id = "aboutjennphoto" src="images\jennsnowrunning.jpg" style="float: left;" />
+     </p>
  </div>
 
+ <div><footer>Here be the foots</footer></div> 
 
-
-
+</body>
 </html>

@@ -1,11 +1,11 @@
 function showTabContent(evt, tabName) {
   // Declare all variables
-  var i, tabcontent, tablinks;
+  let i, tabcontent, tablinks;
 
   // Get all elements with class="tabcontent" and hide them
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
+    tabcontent[i].className = tabcontent[i].className.replace(" active", "");
   }
 
   // Get all elements with class="tablinks" and remove the class "active"
@@ -15,10 +15,7 @@ function showTabContent(evt, tabName) {
   }
 
   // Show the current tab, and add an "active" class to the button that opened the tab
-  document.getElementById(tabName).style.display = "block";
+  document.getElementById(tabName).className += " active";
   evt.currentTarget.className += " active";
 }
 
-function setDefaultTab(tabID) {
-  document.getElementById(tabID).click();
-}
